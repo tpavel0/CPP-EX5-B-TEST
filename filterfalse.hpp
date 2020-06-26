@@ -46,12 +46,12 @@ namespace itertools{
                 return temp;
             }
             bool operator ==(const iterator& tempIT) {
-                if(Value == tempIT.Value)
+                if(it == tempIT.it)
                     return true;
                 return false;
             }
             bool operator !=(const iterator& tempIT) {
-                if(Value != tempIT.Value)
+                if(it != tempIT.it)
                     return true;
                 return false;
             }
